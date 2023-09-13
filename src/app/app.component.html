@@ -6,10 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <app-movie-portal></app-movie-portal>
-<app-movie-portal></app-movie-portal>
-<app-movie-portal></app-movie-portal>
-<app-movie-portal></app-movie-portal>
+
+    <app-movie-portal *ngFor="let movie of movies" movie></app-movie-portal>
+
 </body>
 </html>
 
