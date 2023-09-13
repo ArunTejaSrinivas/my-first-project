@@ -1,0 +1,18 @@
+img{
+    height: 22rem;
+    width: 15rem;
+    border-radius: 2rem;
+}
+
+.title-rating{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.main{
+    background-color: whitesmoke;
+    width: 18rem;
+    text-align: center;
+    padding: 1rem;
+}
