@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<app-movies-list></app-movies-list>
+<div class="container">
+    <app-movies *ngFor = "let movie of MoviesList" [MoviesList]="movie"></app-movies>
+</div>
 
-    <app-movie-portal *ngFor="let movie of movies" movie></app-movie-portal>
 
-</body>
-</html>
-
-<!-- <app-profiles></app-profiles>
-<app-profiles pic="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" name="nitheesh"></app-profiles>
-<app-profiles pic="https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-250nw-1714666150.jpg" name="Arunteja"></app-profiles> -->
+<app-buttons></app-buttons>

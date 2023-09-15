@@ -1,0 +1,13 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    /* justify-content: center; */
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.form button{
+    height: 3rem;
+}

@@ -1,0 +1,9 @@
+div{
+    height: 25px;
+    width: 250px;
+}
+.container{
+    margin-top: 1rem;
+    display: flex;
+    gap: 3px;
+}

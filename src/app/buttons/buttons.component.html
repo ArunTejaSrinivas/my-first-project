@@ -1,0 +1,8 @@
+<input type="text" [style.background]="clr" [(ngModel)]="clr" />
+<button (click)="createColor()">Add color</button>
+<app-box
+  *ngFor="let color of listOfColors let i = index"
+  [clr]="color"
+  [idx] = "i"
+  (rmClrIdx) = "removeColor($event)"
+></app-box>
